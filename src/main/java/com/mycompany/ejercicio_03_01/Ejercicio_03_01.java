@@ -13,7 +13,7 @@ public class Ejercicio_03_01 {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        VentanaBorderLayout ventanaBorder = new VentanaBorderLayout();
-        
+    
+        VentanaBorderLayout ventanaBorder01 = new VentanaBorderLayout();
     }
 }

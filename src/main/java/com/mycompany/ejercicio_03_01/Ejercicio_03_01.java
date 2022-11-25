@@ -14,6 +14,12 @@ public class Ejercicio_03_01 {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     
-        VentanaBandera ventanaBorder01 = new VentanaBandera();
+       
+        GridLayout ventana02 = new GridLayout();
+        VentanaBandera ventana03 = new VentanaBandera();
+        VentanaBorderLayout ventana04 = new VentanaBorderLayout();
+         VentanaFlowLayout ventana01 = new VentanaFlowLayout();
+        
+        
     }
 }

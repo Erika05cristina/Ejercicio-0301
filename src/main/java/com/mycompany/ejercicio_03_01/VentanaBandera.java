@@ -34,7 +34,7 @@ public class VentanaBandera extends JFrame {
         this.setSize(400, 200);
         this.setTitle("BorderLayout");
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        this.setLocationRelativeTo(null);
+        this.setLocation(45, 35);
 
         iniciarComponentes();
         this.setVisible(true);
@@ -130,13 +130,13 @@ public class VentanaBandera extends JFrame {
         this.jPanelList.get(1).setBorder(new CompoundBorder(new EtchedBorder(), new LineBorder(Color.DARK_GRAY)));
         this.jPanelList.get(3).setBorder(new CompoundBorder(new EtchedBorder(), new LineBorder(Color.DARK_GRAY)));
         this.jPanelList.get(4).setBorder(new CompoundBorder(new EtchedBorder(), new LineBorder(Color.DARK_GRAY)));
-      //  this.jPanelList.get(5).setBorder(new CompoundBorder(new EtchedBorder(), new LineBorder(Color.DARK_GRAY)));
+        //  this.jPanelList.get(5).setBorder(new CompoundBorder(new EtchedBorder(), new LineBorder(Color.DARK_GRAY)));
         this.jPanelList.get(6).setBorder(new CompoundBorder(new EtchedBorder(), new LineBorder(Color.DARK_GRAY)));
 
         this.jPanelList.get(1).setBackground(Color.LIGHT_GRAY);
         this.jPanelList.get(3).setBackground(Color.LIGHT_GRAY);
         this.jPanelList.get(4).setBackground(Color.LIGHT_GRAY);
-       // this.jPanelList.get(5).setBackground(Color.LIGHT_GRAY);
+        // this.jPanelList.get(5).setBackground(Color.LIGHT_GRAY);
         this.jPanelList.get(6).setBackground(Color.LIGHT_GRAY);
 
     }
@@ -150,67 +150,67 @@ public class VentanaBandera extends JFrame {
             this.jPanelBandera.add(new JPanel());
             this.jPanelList.get(5).add(jPanelBandera.get(x));
         }
-        
+
         int y;
-        
-        for ( y = 0; y < 5; y++) {
-           this.jPanelBandera.get(y).setBackground(Color.red);
+
+        for (y = 0; y < 5; y++) {
+            this.jPanelBandera.get(y).setBackground(Color.red);
         }
         this.jPanelBandera.get(5).setBackground(Color.white);
         this.jPanelBandera.get(6).setBackground(Color.blue);
         this.jPanelBandera.get(7).setBackground(Color.blue);
         this.jPanelBandera.get(8).setBackground(Color.white);
-        for ( y = 9; y < 21; y++) {
-           this.jPanelBandera.get(y).setBackground(Color.red);
+        for (y = 9; y < 21; y++) {
+            this.jPanelBandera.get(y).setBackground(Color.red);
         }
         this.jPanelBandera.get(21).setBackground(Color.white);
         this.jPanelBandera.get(22).setBackground(Color.blue);
         this.jPanelBandera.get(23).setBackground(Color.blue);
         this.jPanelBandera.get(24).setBackground(Color.white);
-        
-        for ( y = 25; y < 35; y++) {
-           this.jPanelBandera.get(y).setBackground(Color.red);
+
+        for (y = 25; y < 35; y++) {
+            this.jPanelBandera.get(y).setBackground(Color.red);
         }
-        for ( y = 32; y < 37; y++) {
-           this.jPanelBandera.get(y).setBackground(Color.white);
+        for (y = 32; y < 37; y++) {
+            this.jPanelBandera.get(y).setBackground(Color.white);
         }
-        
+
         this.jPanelBandera.get(37).setBackground(Color.white);
         this.jPanelBandera.get(38).setBackground(Color.blue);
         this.jPanelBandera.get(39).setBackground(Color.blue);
         this.jPanelBandera.get(40).setBackground(Color.white);
-        
-        for ( y = 41; y < 48; y++) {
-           this.jPanelBandera.get(y).setBackground(Color.white);
+
+        for (y = 41; y < 48; y++) {
+            this.jPanelBandera.get(y).setBackground(Color.white);
         }
-        for ( y = 48; y < 80; y++) {
-           this.jPanelBandera.get(y).setBackground(Color.blue);
+        for (y = 48; y < 80; y++) {
+            this.jPanelBandera.get(y).setBackground(Color.blue);
         }
-        for ( y = 80; y < 86; y++) {
-           this.jPanelBandera.get(y).setBackground(Color.white);
+        for (y = 80; y < 86; y++) {
+            this.jPanelBandera.get(y).setBackground(Color.white);
         }
         this.jPanelBandera.get(86).setBackground(Color.blue);
         this.jPanelBandera.get(87).setBackground(Color.blue);
-        for ( y = 88; y < 96; y++) {
-           this.jPanelBandera.get(y).setBackground(Color.white);
+        for (y = 88; y < 96; y++) {
+            this.jPanelBandera.get(y).setBackground(Color.white);
         }
-        for ( y = 96; y < 101; y++) {
-           this.jPanelBandera.get(y).setBackground(Color.red);
-           
+        for (y = 96; y < 101; y++) {
+            this.jPanelBandera.get(y).setBackground(Color.red);
+
         }
         this.jPanelBandera.get(101).setBackground(Color.white);
         this.jPanelBandera.get(102).setBackground(Color.blue);
         this.jPanelBandera.get(103).setBackground(Color.blue);
         this.jPanelBandera.get(104).setBackground(Color.white);
-        for ( y = 105; y < 117; y++) {
-           this.jPanelBandera.get(y).setBackground(Color.red);
+        for (y = 105; y < 117; y++) {
+            this.jPanelBandera.get(y).setBackground(Color.red);
         }
         this.jPanelBandera.get(117).setBackground(Color.white);
         this.jPanelBandera.get(118).setBackground(Color.blue);
         this.jPanelBandera.get(119).setBackground(Color.blue);
         this.jPanelBandera.get(120).setBackground(Color.white);
-        for ( y = 121; y < 128; y++) {
-           this.jPanelBandera.get(y).setBackground(Color.red);
+        for (y = 121; y < 128; y++) {
+            this.jPanelBandera.get(y).setBackground(Color.red);
         }
 
     }
